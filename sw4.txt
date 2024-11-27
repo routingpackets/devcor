@@ -1,1 +1,5 @@
 hostname sw4
+!
+interface loopback0
+  description Router ID
+  ip address 4.4.4.4 255.255.255.255

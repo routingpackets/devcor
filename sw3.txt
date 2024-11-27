@@ -1,1 +1,5 @@
 hostname sw3
+!
+interface loopback0
+  description Router ID 
+  ip address 3.3.3.3 255.255.255.255

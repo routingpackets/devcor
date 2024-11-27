@@ -1,1 +1,7 @@
 hostname sw1
+!
+ntp server 10.1.1.1
+!
+interface loopback1
+  description Router ID
+  ip address 1.1.1.1 255.255.255.255

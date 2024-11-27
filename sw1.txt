@@ -5,3 +5,7 @@ ntp server 10.1.1.1
 interface loopback1
   description Router ID
   ip address 1.1.1.1 255.255.255.255
+!
+interface loopback2
+  description NVE Loopback
+  ip address 150.1.1.1 255.255.255.255
